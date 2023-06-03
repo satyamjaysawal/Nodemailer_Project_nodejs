@@ -22,7 +22,7 @@ To run this project, make sure you have Node.js installed on your machine. Then,
 
 ## User And Pass //
 
-  user: 'your_email@gmail.com',
+  user: 'your_email@gmail.com',   
   pass: 'your_password'
 
 
