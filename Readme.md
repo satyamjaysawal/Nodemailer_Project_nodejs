@@ -1,7 +1,7 @@
 
 ----# Nodemailer Project
 
-This is a simple Node.js project showcasing how to send emails using the Nodemailer library. Nodemailer is a popular module for sending emails from a Node.js application, supporting various transport methods.
+This is a simple Node.js project showcasing how to send emails using the Nodemailer library. Nodemailer is a popular module for sending emails from a Node.js application, supporting various transport methods...
 
 
 ![Image Alt Text](img-1.png)
