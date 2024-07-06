@@ -8,16 +8,16 @@ const mail = async () => {
       port: 587,
       secure: false,
       auth: {
-        user: "your_email@gmail.com",
-        pass: "your_password",
+        user: "Use Gmail ID", // self mail 
+        pass: "Use Gmail App Password", // Use the App password generated from Google Account "security >> App Password"
       },
     });
     const sendmailnow = await config.sendMail({
-      from: 'test@gmail.com',
-      to: 'vanan81073@peogi.com',
+      from: 'Gmail ID',
+      to: 'To Gmail ID',
       subject: 'test',
-      text: 'Hello, this is a test mail',
-      html: '<h1>This is an HTML mail demo</h1>',
+      text: 'Hello, this is a test Satyam mail',
+      html: '<h1>This is an HTML mail demo this is a test Satyam mail</h1>',
     });
     console.log('Message sent: %s', sendmailnow.messageId);
   } catch (error) {
